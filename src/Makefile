@@ -8,6 +8,7 @@ CC          = gcc
 S6_LOCATION = 
 #S6_LIB_CCFLAGS     = -g -O3 -fPIC -shared -lstdc++ -mavx -msse4 
 # MPshen by 20201019
+# test VSCode and github
 S6_LIB_CCFLAGS     = -g -O3 -fPIC -shared -lstdc++ \
 		     -I. -I$(CUDA_DIR)/include -I/usr/local/include -I/usr/include/cfitsio -I. \
 		     -L. -L/usr/local/lib -L/usr/lib64 -L/usr/local/lib/hiredis \
